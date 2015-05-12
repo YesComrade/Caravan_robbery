@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 52901f92b7ebf5e4683064b3455ecd63
+timeCreated: 1431267203
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - land: {fileID: 422722, guid: 72f5564ce7f6bba48aefe21de0609177, type: 2}
+  - main_city: {fileID: 448716, guid: c3aeafda18e28b145b6667d683d3e5e4, type: 2}
+  - city: {fileID: 483184, guid: 41acdcf65874e5d49870c244134a0962, type: 2}
+  - road: {fileID: 425932, guid: 5bfc97ed7ad41bd4da4d973aa92ea118, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

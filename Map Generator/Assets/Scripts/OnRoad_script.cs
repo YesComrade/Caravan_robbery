@@ -4,12 +4,7 @@ using System.Collections;
 public class OnRoad_script : MonoBehaviour {
 	public Transform road;
 	public Transform dude;
-	void Start () 
-	{
-	}
-	void Update () 
-	{
-	}
+
 	void OnMouseDown()
 	{
 		int coord_x = 0,coord_y = 0;
@@ -38,16 +33,17 @@ public class OnRoad_script : MonoBehaviour {
 	//	}
 		Instantiate(dude,vec,Quaternion.identity);
 	}
-	int check_place(int x,int y)
-	{
-		if (Map.game_map[x+1,y]!=-2)
-			return 1;
-		else if (Map.game_map[x-1,y]!=-2)
-			return 2;
-		else if (Map.game_map[x,y-1]!=-2)
-			return 3;
-		else if (Map.game_map[x,y+1]!=2)
-			return 4;
-		return -1;
-	}
+	//out of use now
+//	int check_place(int x,int y)
+//	{
+//		if (Map.game_map[x+1,y]!=-2)
+//			return 1;
+//		else if (Map.game_map[x-1,y]!=-2)
+//			return 2;
+//		else if (Map.game_map[x,y-1]!=-2)
+//			return 3;
+//		else if (Map.game_map[x,y+1]!=2)
+//			return 4;
+//		return -1;
+//	}
 }

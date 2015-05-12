@@ -47,9 +47,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera_Control.cs" />
+     <Compile Include="Assets\Scripts\Caravan.cs" />
+     <Compile Include="Assets\Scripts\Caravan_Control.cs" />
+     <Compile Include="Assets\Scripts\Draw.cs" />
+     <Compile Include="Assets\Scripts\GameObject.cs" />
+     <Compile Include="Assets\Scripts\MainClass.cs" />
      <Compile Include="Assets\Scripts\Map.cs" />
+     <Compile Include="Assets\Scripts\MapGenerator.cs" />
      <Compile Include="Assets\Scripts\OnRoad_script.cs" />
-     <Compile Include="Assets\Scripts\P_F.cs" />
+     <Compile Include="Assets\Scripts\PathFinder.cs" />
+     <Compile Include="Assets\Scripts\Point.cs" />
+     <Compile Include="Assets\Scripts\crime_check.cs" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -146,7 +154,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>E:/Unity/Map Generator/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>E:/Unity/1/Map Generator/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Editor_new/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
